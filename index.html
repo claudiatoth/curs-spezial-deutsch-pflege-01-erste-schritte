@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erste Schritte — Salutări + politețe + alfabet + cifre + „nu înțeleg" · A1.1 · Pflege Lecția 1 · Annettes Deutschkurs</title>
+    <meta property="og:title" content="Pflege Lecția 1 · Erste Schritte · Claudia Toth">
+    <meta property="og:description" content="A1.1 Pflege Lecția 1 — primii pași: salutări, politețe, alfabetul german, cifre 0-10 și frazele salvatoare „nu înțeleg / vorbiți mai rar / repetați". Primul contact cu pacientul fără stres. · Claudia Toth · Annettes Deutschkurs">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ro_RO">
+    <meta name="description" content="Pflege Lecția 1 — Erste Schritte. Salutări de bază, politețe, alfabet german, cifre 0-10, fraze salvatoare „nu înțeleg" · Claudia Toth · Annettes Deutschkurs">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#dialog1" onclick="openSection(1)">🎬 Dialog 1</a></li>
+            <li><a href="#dialog2" onclick="openSection(2)">🎬 Dialog 2</a></li>
+            <li><a href="#ex1" onclick="openSection(3)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(4)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(5)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(6)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(7)">Ex. 5</a></li>
+            <li><a href="#ex6" onclick="openSection(8)">Ex. 6</a></li>
+            <li><a href="#ex7" onclick="openSection(9)">✍️ Ex. 7</a></li>
+            <li><a href="#flashcards" onclick="openSection(10)">📇 Flashcards</a></li>
+            <li><a href="#final-test" onclick="openSection(11)">🎯 Test Final</a></li>
+            <li><a href="erste-schritte.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Erste Schritte</h1>
+            <p class="subtitle">Primii pași — salutări, politețe, alfabet, cifre și „nu înțeleg"</p>
+            <p>Claudia Toth · Annettes Deutschkurs · A1.1 · Pflege Lecția 1 din 40</p>
+        </div>
+
+        <div class="cast-banner">
+            <h4>👋 Cunoaște echipa · Andreea pornește azi spre prima ei zi la Frau Müller</h4>
+            <div class="cast-grid">
+                <div class="cast-card"><img src="images/andreea.png" alt="Andreea"><div class="name">Andreea 🇷🇴</div><div class="detail">Pflegerin · protagonista lecției</div></div>
+                <div class="cast-card frau-mueller-card">
+                    <div class="frau-mueller-avatar">
+                        <span class="hair">⚪</span>
+                        <span class="face">👵</span>
+                    </div>
+                    <div class="name">Frau Müller</div><div class="detail">Pacientă · 78 ani · Berlin</div>
+                </div>
+                <div class="cast-card"><img src="images/annette.png" alt="Annette"><div class="name">Annette</div><div class="detail">Profesoara · Berlin</div></div>
+                <div class="cast-card"><img src="images/mihai.png" alt="Mihai"><div class="name">Mihai</div><div class="detail">Bucătar · Potsdam</div></div>
+                <div class="cast-card"><img src="images/florian.png" alt="Florian"><div class="name">Florian</div><div class="detail">Doctor · Berlin</div></div>
+                <div class="cast-card"><img src="images/carolina.png" alt="Carolina"><div class="name">Carolina</div><div class="detail">Fotografă · Berlin</div></div>
+            </div>
+        </div>
+
+        <div class="box-etic">
+            <h4>⚠️ Notă importantă</h4>
+            <p>Această lecție te pregătește <strong>LINGVISTIC</strong> — îți dă primele cuvinte de care ai nevoie să te înțelegi cu pacienta și familia ei. <strong>NU înlocuiește</strong> calificarea profesională (Pflegehelferin / Pflegefachkraft). Pentru îngrijire reală, urmează un curs autorizat de Pflege.</p>
+        </div>
+
+        <div style="background:#fef3c7; border-left:4px solid #f59e0b; padding:14px 20px; margin:20px 0; border-radius:8px;">
+            <p style="margin:0; color:#78350f; font-size:0.95rem;">⌨️ <strong>Tastatură fără caractere germane?</strong> Scrie <strong>ss</strong> pentru ß · <strong>ae</strong> pentru ä · <strong>oe</strong> pentru ö · <strong>ue</strong> pentru ü. Diacritice românești cu sau fără ăâîșț — totul merge.</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)"><h3>ʚଓ TEORIE — Primii pași în germană</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-0"><div id="theory-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog1">
+                <div class="section-header" onclick="toggleMainSection(1)"><h3>🎬 Dialog Animat 1 — „Endlich da!" (Andreea sosește la Frau Müller)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-1"><div id="dialog1-container"></div></div>
+            </div>
+
+            <div class="section" id="dialog2">
+                <div class="section-header" onclick="toggleMainSection(2)"><h3>🎬 Dialog Animat 2 — „Wie schreibt man das?" (Andreea învață alfabet + cifre)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-2"><div id="dialog2-container"></div></div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(3)"><h3>ʚଓ Übung 1: Match — Salutări DE → Traducere RO</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(1)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(1)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(4)"><h3>ʚଓ Übung 2: Salutarea potrivită pe momentul zilei</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(2)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(2)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(5)"><h3>ʚଓ Übung 3: Audio dictat — Litere și cifre</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(3)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(3)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(6)"><h3>ʚଓ Übung 4: Politețe — Bitte, Danke, Entschuldigung în context</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-6">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(4)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(4)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(7)"><h3>ʚଓ Übung 5: Dialog Gap-Fill — Andreea la sosire</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-7">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(5)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(5)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex6">
+                <div class="section-header" onclick="toggleMainSection(8)"><h3>ʚଓ Übung 6: Traducere RO → DE (salutări + politețe)</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-8">
+                    <div id="ex6-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(6)">✓ Verifică</button>
+                        <button class="btn btn-reset" onclick="resetExercise(6)">↻ Resetează</button>
+                    </div>
+                    <div class="score" id="score-6"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex7">
+                <div class="section-header" onclick="toggleMainSection(9)"><h3>✍️ Übung 7: Schreiben — Cum te-ai prezenta pe scurt</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-9">
+                    <div id="ex7-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(10)"><h3>ʚଓ Flashcards — 48 cards cu pronunție</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-10"><div id="flashcards-container"></div></div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(11)"><h3>ʚଓ 🎯 Test Final — 25 întrebări</h3><span class="arrow">▼</span></div>
+                <div class="section-content" id="main-section-11"><div id="final-test-container"></div></div>
+            </div>
+        </div>
+
+        <div class="footer-cta">
+            <h3>🎉 Felicitări — primii pași în germana Pflege!</h3>
+            <p>Ai învățat salutările, politețea, alfabetul, cifrele și — cel mai important — frazele care te salvează când nu înțelegi: <em>„Ich verstehe nicht"</em>, <em>„Bitte langsamer"</em>, <em>„Wiederholen Sie"</em>. De acum nu mai ești singură — și mereu poți cere ajutor politicos.</p>
+            <p class="cta-sub">Cu căldură și încredere — primii pași sunt cei mai grei. 🤍</p>
+        </div>
+
+        <footer style="text-align:center; padding:24px 16px; color:#fff; font-size:0.9rem; opacity:0.9;">
+            © 2026 Claudia Toth · Annettes Deutschkurs · Pflege Lecția 1 din 40 — Erste Schritte
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="theory.js"></script>
+    <script src="dialogs.js"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="final-test.js"></script>
+</body>
+</html>
