@@ -104,16 +104,16 @@ function checkEx2() {
 // EX 3: Audio dictat — litere și cifre
 // ============================================
 const ex3Data = [
-    { id: 'a', audio: 'audio/dictat-01.mp3', correct: 'A', accept: ['a'] },
-    { id: 'b', audio: 'audio/dictat-02.mp3', correct: 'M', accept: ['m'] },
-    { id: 'c', audio: 'audio/dictat-03.mp3', correct: 'Z', accept: ['z'] },
-    { id: 'd', audio: 'audio/dictat-04.mp3', correct: 'Ü', accept: ['ue', 'ü'] },
-    { id: 'e', audio: 'audio/dictat-05.mp3', correct: 'ß', accept: ['ss', 'ß'] },
-    { id: 'f', audio: 'audio/dictat-06.mp3', correct: 'drei', accept: ['drei', '3'] },
-    { id: 'g', audio: 'audio/dictat-07.mp3', correct: 'sieben', accept: ['sieben', '7'] },
-    { id: 'h', audio: 'audio/dictat-08.mp3', correct: 'zehn', accept: ['zehn', '10'] },
-    { id: 'i', audio: 'audio/dictat-09.mp3', correct: 'fünf', accept: ['fuenf', 'fünf', '5'] },
-    { id: 'j', audio: 'audio/dictat-10.mp3', correct: 'acht', accept: ['acht', '8'] }
+    { id: 'a', audio: 'audio/dictat-01.wav', correct: 'A', accept: ['a'] },
+    { id: 'b', audio: 'audio/dictat-02.wav', correct: 'M', accept: ['m'] },
+    { id: 'c', audio: 'audio/dictat-03.wav', correct: 'Z', accept: ['z'] },
+    { id: 'd', audio: 'audio/dictat-04.wav', correct: 'Ü', accept: ['ue', 'ü'] },
+    { id: 'e', audio: 'audio/dictat-05.wav', correct: 'ß', accept: ['ss', 'ß'] },
+    { id: 'f', audio: 'audio/dictat-06.wav', correct: 'drei', accept: ['drei', '3'] },
+    { id: 'g', audio: 'audio/dictat-07.wav', correct: 'sieben', accept: ['sieben', '7'] },
+    { id: 'h', audio: 'audio/dictat-08.wav', correct: 'zehn', accept: ['zehn', '10'] },
+    { id: 'i', audio: 'audio/dictat-09.wav', correct: 'fünf', accept: ['fuenf', 'fünf', '5'] },
+    { id: 'j', audio: 'audio/dictat-10.wav', correct: 'acht', accept: ['acht', '8'] }
 ];
 
 function buildEx3() {
