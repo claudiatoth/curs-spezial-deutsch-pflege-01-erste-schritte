@@ -279,7 +279,7 @@ Ich heiße ..."></textarea>
             </details>
 
             <div class="schreiben-cta">
-                <a href="https://forms.gle/ABw53fADhhfDTYJH9" target="_blank" class="btn-google-form-big">
+                <a href="https://forms.gle/kbzQHSQ76cTsE7PG6" target="_blank" class="btn-google-form-big">
                     ✍️ Vrei feedback PERSONAL de la Annette? Trimite-ți textul aici
                 </a>
                 <p class="schreiben-promise">📩 Răspunde Annette personal în 24-48 ore — corectare + sfaturi.</p>
