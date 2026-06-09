@@ -148,7 +148,7 @@ const ex4Data = [
     { id: 'f', sentence: 'Doctorul îți explică ceva important. La final spui: „____."', translation: 'Mulțumiri multe (formal)', correct: 'Vielen Dank', accept: ['vielen dank'] },
     { id: 'g', sentence: 'Întrerupi o discuție. Începi cu: „____, ich verstehe nicht."', translation: 'Mă scuzați', correct: 'Entschuldigung', accept: ['entschuldigung'] },
     { id: 'h', sentence: 'Pacienta îți pune o pernă. O răsplătești cu: „____, Frau Müller."', translation: 'Mulțumesc frumos', correct: 'Danke schön', accept: ['danke schoen', 'danke schön'] },
-    { id: 'i', sentence: 'Mai târziu, când ai timp, vrei să răspunzi mai cald: „Vielen ____."', translation: 'Dank', correct: 'Dank', accept: ['dank'] },
+    { id: 'i', sentence: 'Mai târziu, când ai timp, vrei să răspunzi mai cald: „Vielen ____."', translation: 'Mulțumesc mult', correct: 'Dank', accept: ['dank'] },
     { id: 'j', sentence: 'Repeți cererea politicos: „Wiederholen Sie, ____."', translation: 'Vă rog', correct: 'bitte', accept: ['bitte'] }
 ];
 
