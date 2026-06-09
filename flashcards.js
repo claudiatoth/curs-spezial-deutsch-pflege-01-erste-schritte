@@ -49,7 +49,7 @@ const flashcardsData = [
     // === 5. VERBE CHEIE (8) ===
     { de: "sein — ich BIN / Sie SIND", ro: "🔁 A FI · cel mai important verb · NEREGULAT · Ich bin Andreea", audio: "audio/letters/sein.wav" },
     { de: "heißen — ich HEISSE / Sie HEISSEN", ro: "🔁 A SE NUMI · ich heiße = mă numesc · Wie heißen Sie?", audio: "audio/letters/heissen.wav" },
-    { de: "kommen — ich KOMME", ro: "🔁 A VENI · Ich komme aus Rumänien (Vin din România)", audio: "audio/letters/kommen.wav" },
+    { de: "kommen — ich KOMME", ro: "🔁 A VENI · Ich komme aus Rumänien (Sunt din România)", audio: "audio/letters/kommen.wav" },
     { de: "wohnen — ich WOHNE", ro: "🔁 A LOCUI · Ich wohne in Berlin (Locuiesc în Berlin)", audio: "audio/letters/wohnen.wav" },
     { de: "sprechen — Sprechen Sie...?", ro: "🔁 A VORBI · Sprechen Sie langsamer = vorbiți mai rar", audio: "audio/letters/sprechen.wav" },
     { de: "verstehen — ich VERSTEHE", ro: "🔁 A ÎNȚELEGE · Ich verstehe nicht = NU înțeleg (FRAZĂ SALVATOARE)", audio: "audio/letters/verstehen.wav" },

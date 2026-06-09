@@ -113,7 +113,7 @@
             <p><strong>Structuri utile:</strong> Guten Tag · Ich heiße ... · Ich bin aus ... · Ich komme aus ... · Vielen Dank</p>
             <div class="rezolvare-banner">📝 Model de răspuns</div>
             <p><em>Guten Tag, Frau Müller. Ich heiße Maria Popescu. Ich bin aus Rumänien. Ich komme aus Cluj. Vielen Dank für Ihre Gastfreundschaft.</em></p>
-            <p class="ro-translation">🇷🇴 Bună ziua, Doamnă Müller. Eu mă numesc Maria Popescu. Sunt din România. Vin din Cluj. Mulțumesc mult pentru ospitalitatea dumneavoastră.</p>
+            <p class="ro-translation">🇷🇴 Bună ziua, Doamnă Müller. Eu mă numesc Maria Popescu. Sunt din România. Sunt din Cluj. Mulțumesc mult pentru ospitalitatea dumneavoastră.</p>
             </div>`;
 
         return html;

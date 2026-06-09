@@ -274,7 +274,7 @@ Ich heiße ..."></textarea>
                 <div class="model-text">
                     <p><em>Beispiel-Antwort:</em></p>
                     <p>Guten Tag, Frau Müller. Ich heiße Maria Popescu. Ich bin aus Rumänien. Ich komme aus Cluj. Vielen Dank für Ihre Gastfreundschaft.</p>
-                    <p class="model-translation"><em>Traducere:</em> Bună ziua, Doamnă Müller. Eu mă numesc Maria Popescu. Sunt din România. Vin din Cluj. Mulțumesc mult pentru ospitalitatea dumneavoastră.</p>
+                    <p class="model-translation"><em>Traducere:</em> Bună ziua, Doamnă Müller. Eu mă numesc Maria Popescu. Sunt din România. Sunt din Cluj. Mulțumesc mult pentru ospitalitatea dumneavoastră.</p>
                 </div>
             </details>
 
