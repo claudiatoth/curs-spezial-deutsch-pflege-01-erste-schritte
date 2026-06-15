@@ -1988,7 +1988,7 @@ body {
     gap: 4px;
 }
 .korper-card.masculin {
-    border-left-color: #3b82f6;
+    border-left-color: #D4A574;
 }
 .korper-card.feminin {
     border-left-color: #ef4444;
@@ -2001,7 +2001,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
-.korper-card .article.der { color: #3b82f6; }
+.korper-card .article.der { color: #D4A574; }
 .korper-card .article.die { color: #ef4444; }
 .korper-card .article.das { color: #10b981; }
 .korper-card strong {
